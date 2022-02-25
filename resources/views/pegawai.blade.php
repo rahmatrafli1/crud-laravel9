@@ -3,10 +3,17 @@
 
 <head>
     <title>Tutorial CRUD Laravel 9</title>
-    <link rel="stylesheet" href="{{ url('/css/paginate.css') }}">
 </head>
 
 <body>
+    <style type="text/css">
+		.pagination li{
+			float: left;
+			list-style-type: none;
+			margin:5px;
+		}
+	</style>
+
     <h3>Data Pegawai</h3>
 
     <a href="/pegawai/tambah">+ Tambah Data Pegawai</a>
